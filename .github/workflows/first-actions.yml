@@ -30,7 +30,7 @@ jobs:
       uses: sonarsource/sonarqube-scan-action@master
       with:
         projectBaseDir: .
-        args: >
+        args: 
           -Dsonar.organization=mona-13
           -Dsonar.projectKey=GitHub-Actions-Zero-to-Hero
       env:
